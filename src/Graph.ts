@@ -186,6 +186,7 @@ export default class Graph {
 		);
 	}
 
+	// TODO Lukas no return value
 	async build(
 		entryModuleIds: string | string[] | Record<string, string>,
 		manualChunks: ManualChunksOption | void,
